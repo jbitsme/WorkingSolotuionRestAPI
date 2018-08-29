@@ -18,7 +18,7 @@ public class Main2Activity extends AppCompatActivity {
         setContentView(R.layout.activity_main2);
 
 
-        Button makeSkypeCall = (Button) findViewById(R.id.makeSkypeCall);
+        ImageButton makeSkypeCall = (ImageButton) findViewById(R.id.makeSkypeCall);
         final EditText SIPAddress = (EditText) findViewById(R.id.SIPAddress);
         final CheckBox videoCall = (CheckBox) findViewById(R.id.videoCheck);
         makeSkypeCall.setOnClickListener(new View.OnClickListener() {
@@ -35,7 +35,7 @@ public class Main2Activity extends AppCompatActivity {
             }
         });
 
-        Button skypeMessageButton = (Button) findViewById(R.id.makeSkypeMessage);
+        ImageButton skypeMessageButton = (ImageButton) findViewById(R.id.makeSkypeMessage);
         skypeMessageButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

@@ -36,9 +36,10 @@
         android:id="@+id/skypeWindow"
         android:layout_width="50dip"
         android:layout_height="50dip"
-        android:layout_below="@+id/scrollView2"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="11dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginStart="10dp"
         android:background="@drawable/skype" />
 
 </RelativeLayout>
