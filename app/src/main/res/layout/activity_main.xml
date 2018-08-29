@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.jonas.workingsolotuionrestapi.MainActivity">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Click Me!"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/button"/>
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/SIPAddress"
+        android:layout_below="@+id/button">
+
+        <TextView
+            android:id="@+id/data"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Fetched Text Here!!!"
+            android:padding="10dp"
+            android:textSize="24sp" />
+
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/skypeWindow"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_above="@+id/scrollView2"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/skypebutton_background"
+        android:text="S"
+        android:textColor="#FFFFFF"
+        android:textSize="30dp" />
+
+</RelativeLayout>
