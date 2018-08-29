@@ -8,6 +8,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.EditText;
+import android.widget.ImageButton;
 
 public class Main2Activity extends AppCompatActivity {
 
@@ -45,7 +46,7 @@ public class Main2Activity extends AppCompatActivity {
             }
         });
 
-        Button backButton = (Button) findViewById(R.id.backButton);
+        ImageButton backButton = (ImageButton) findViewById(R.id.backButton);
 
         backButton.setOnClickListener(new View.OnClickListener() {
             @Override
