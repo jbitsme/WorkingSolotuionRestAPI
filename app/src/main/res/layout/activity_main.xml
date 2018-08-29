@@ -34,12 +34,21 @@
 
     <ImageButton
         android:id="@+id/skypeWindow"
-        android:layout_width="50dip"
-        android:layout_height="50dip"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
         android:layout_alignParentBottom="true"
         android:layout_alignParentStart="true"
         android:layout_marginBottom="10dp"
         android:layout_marginStart="10dp"
         android:background="@drawable/skype" />
+
+    <ImageButton
+        android:id="@+id/cameraView"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/skypeWindow"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/camera" />
 
 </RelativeLayout>
